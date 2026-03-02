@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Collection | LuxeRent</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">LUXE<span>RENT</span></div>
+        <div class="nav-links"><a href="index.html">Home</a><a href="catalog.html">Collection</a></div>
+    </nav>
+
+    <section class="container">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="badge">Trending</div>
+                <div class="product-img" style="background: linear-gradient(45deg, #ffd1dc, #ff9a9e);"><span>👗</span></div>
+                <div class="product-info">
+                    <h3>Midnight Velvet Gown</h3>
+                    <p class="price">₹2,499 <span>/ day</span></p>
+                    <button class="book-btn" onclick="selectDress('Midnight Velvet Gown', 2499)">Book Now</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img" style="background: linear-gradient(45deg, #a1c4fd, #c2e9fb);"><span>✨</span></div>
+                <div class="product-info">
+                    <h3>Champagne Sequin Mini</h3>
+                    <p class="price">₹1,850 <span>/ day</span></p>
+                    <button class="book-btn" onclick="selectDress('Champagne Sequin Mini', 1850)">Book Now</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img" style="background: linear-gradient(45deg, #fbc2eb, #a6c1ee);"><span>🌹</span></div>
+                <div class="product-info">
+                    <h3>Floral Silk Wrap</h3>
+                    <p class="price">₹1,200 <span>/ day</span></p>
+                    <button class="book-btn" onclick="selectDress('Floral Silk Wrap', 1200)">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
